@@ -16,23 +16,23 @@ const Whitepaper = () => {
         </h6>
 
         <section className="w-80">
-          <h1 className="text-green font-monst-bold  font-40 ">
+          <h1 className="text-green font-monst-bold my-md-5 my-3 font-40 ">
             {t("heroTwoOne")}
           </h1>
-          <span className="text-green font-22 py-2  font-monst-semiBold">
+          <span className="text-green font-22 my-md-5 py-2  font-monst-semiBold">
             {t("heroTwoTwo")}
           </span>
-          <p className="font-13 font-monst-semiBold text-green">
+          <p className="font-13 font-monst-semiBold my-3 text-green">
             {t("heroTwoThree")}
           </p>
-          <h3 className="text-green font-monst-bold font-30">
+          <h3 className="text-green font-monst-bold my-md-5 my-3 font-30">
             {t("heroTwoFour")}
           </h3>
-          <div className="d-flex justify-content-between flex-wrap">
+          <div className="d-flex justify-content-between my-md-5 my-3 flex-wrap">
             <h6 className="font-monst-semiBold font-14 text-green">
               {t("heroTwoListOne")}
             </h6>
-            <h6 className="font-monst-semiBold font-14 text-green">
+            <h6 className="font-monst-semiBold font-14  text-green">
               {t("heroTwoListTwo")}
             </h6>
             <h6 className="font-monst-semiBold font-14 text-green">
@@ -45,17 +45,17 @@ const Whitepaper = () => {
               {t("heroTwoListFive")}
             </h6>
           </div>
-          <h3 className="font-18 text-green font-monst-bold">
+          <h3 className="font-18 my-md-4 my-3 text-green font-monst-bold">
             "In the dance of time, preservation's song outshines the fleeting
             flames of slash and burn."
           </h3>
-          <h2 className="text-green font-monst-reg line-h-40 font-20">
+          <h2 className="text-green font-monst-reg line-h-40 my-md-4 my-3 font-20">
             {t("heroTwoFive")}
           </h2>
 
-          <div className="row ">
+          <div className="row py-4">
             <div
-              className="col-md-6 col-12 border-b-greay py-4"
+              className="col-md-6 col-12  py-3  border-b-greay "
               id="sub-ic-text"
             >
               <span className="font-monst-reg line-h-50 font-38 text-green">
@@ -63,7 +63,7 @@ const Whitepaper = () => {
                 the planet
               </span>
             </div>
-            <div className="col-md-6 col-8 px-md-5 py-4">
+            <div className="col-md-6  col-8 px-md-5  py-3 ">
               <div className="d-flex justify-content-between">
                 <div className="d-flex flex-column my-2">
                   <div className=" d-flex justify-content-center ">
@@ -112,18 +112,20 @@ const Whitepaper = () => {
                 </div>
               </div>
             </div>
+            <div className="py-md-4 py-3">
+              <h3 className="font-20 text-green font-monst-bold ">
+                We will use the latest technology for transparency and security:
+              </h3>
+              <h2 className="font-34 text-green font-monst-bold">Blockchain</h2>
+            </div>
 
-            <h3 className="font-20 text-green font-monst-bold ">
-              We will use the latest technology for transparency and security:
-            </h3>
-            <h2 className="font-34 text-green font-monst-bold">Blockchain</h2>
             <h2 className="text-green font-monst-reg line-h-40 font-20">
               We will tokenize our carbon credits, meaning we will code them
               into blockchain, leading them to be traceable, secure and avoiding
               double spending. The utmost credibility for the important
               conservation work.
             </h2>
-            <div id="sub-ic-text" className="w-75">
+            <div id="sub-ic-text" className="w-75 py-5 mt-md-5">
               <span className="font-monst-reg line-h-50 font-38 text-green">
                 The Corporation will open an office in Zug Switzerland to launch
                 the $RAFA token. We will be under supervision of the Swiss
@@ -138,10 +140,14 @@ const Whitepaper = () => {
           <div className="col-md-6 col-12">
             <div className=" d-flex flex-column h-100 justify-content-center">
               <div>
-                <h2 className="text-green font-monst-bold font-38 w-60 ">Wanna Invest in our token?</h2>
+                <h2 className="text-green font-monst-bold font-38 w-60 ">
+                  Wanna Invest in our token?
+                </h2>
               </div>
               <div>
-                 <button className="btn btn-buy-two font-14 font-monst-bold my-2">Buy Now</button>
+                <button className="btn btn-buy-two font-14 font-monst-bold my-2">
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>

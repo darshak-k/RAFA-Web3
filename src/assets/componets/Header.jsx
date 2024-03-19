@@ -28,7 +28,7 @@ const Header = () => {
         onClick={() => changeLanguage('en')}>
         en
       </h1> */}
-      <Navbar collapseOnSelect expand="md" className="header-main p-0">
+      <Navbar collapseOnSelect expand="md" className="header-main p-0 fixed-top">
         <Container>
           <Navbar.Brand href="#home" className="font-monst-bold font-50">
             RAFA

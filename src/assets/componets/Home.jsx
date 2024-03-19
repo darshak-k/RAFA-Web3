@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <i className="text-center font-38 py-2">
+        <i className="text-center font-38 py-4">
           <FaChevronDown className="text-green" />
         </i>
       </div>
