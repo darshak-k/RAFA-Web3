@@ -138,6 +138,12 @@
   height: 350px;
   width: auto;
 }
+/* ------------------------------------herothree------------- */
+.bg-exchange{
+background-color: #E3E8BF;
+}
+
+/* ----------------------------------------------------- */
 .font-30{
   font-size:1.8rem !important;
 }
@@ -183,6 +189,9 @@
 .w-60{
   width: 60%;
 }
+.w-40{
+  width: 40%;
+}
 .border-b-greay{
 border-bottom:1px solid #30363a;
 }
@@ -195,7 +204,8 @@ border-bottom:1px solid #30363a;
 
 @media screen and (min-width: 1200px) {
   #home .container,
-  #whitepaper .container 
+  #whitepaper .container,
+  #exchangeCoin .container
   {
     max-width: 78%;
   }
@@ -482,6 +492,7 @@ border-bottom:1px solid #30363a;
 .home-h{
   margin-top: 85px;
 }
+
  }
  
 
@@ -546,6 +557,11 @@ border-bottom:1px solid #30363a;
 }
 .home-h{
   min-height: calc(100vh - 96px);
+}
+.img-crypto-exchange{
+  height: 320px !important;
+  /* width: 100%; */
+  object-fit: cover;
 }
 
 }
