@@ -229,6 +229,13 @@ border-bottom:1px solid #30363a;
   font-size: calc(0.5rem + 8.5vw);
 }
 
+.text-mute-sky{
+  color: #A7CFE0;
+}
+.icon-a{
+  text-decoration: none !important;
+}
+
 
 /* ----------------------------meadia query---------- */
 
