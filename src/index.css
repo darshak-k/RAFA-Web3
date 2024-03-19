@@ -110,7 +110,17 @@
 .w-55{
   width: 55%;
 }
+.w-30{
+  width: 30%;
+}
 
+.w-28{
+  width:28%;
+}
+
+.w-25{
+  width:25%;
+}
 .text-green{
   color: #DEF72D;
 }
@@ -140,7 +150,7 @@
   width: auto;
 }
 /* ------------------------------------herothree------------- */
-.bg-exchange{
+.bg-theam-second{
 background-color: #E3E8BF;
 }
 /* ----------------------------------greenravlution------------- */
@@ -148,6 +158,9 @@ background-color: #E3E8BF;
 /* ----------------------------------------------------- */
 .font-30{
   font-size:1.8rem !important;
+}
+.font-60{
+  font-size: 3.75rem !important;
 }
 .font-34{
   font-size:2.125rem !important;
@@ -186,7 +199,12 @@ background-color: #E3E8BF;
   line-height: 3.125rem !important;
 }
 
-
+.text-them-black{
+ color: #0F0F0F;
+}
+.text-second-muted{
+  color: #37465A;
+}
 
 .w-90{
   width: 90%;
@@ -196,6 +214,9 @@ background-color: #E3E8BF;
 }
 .w-40{
   width: 40%;
+}
+.w-38{
+  width: 38%;
 }
 .border-b-greay{
 border-bottom:1px solid #30363a;
@@ -215,13 +236,17 @@ border-bottom:1px solid #30363a;
   #home .container,
   #whitepaper .container,
   #exchangeCoin .container,
-  #greenravluation .container
+  #greenravluation .container,
+  #creditCarbon .container
   {
     max-width: 78%;
   }
   
 }
 @media (max-width: 576px) { 
+  .font-60{
+    font-size: 1.875rem !important;
+  }
   .font-169 {
     font-size: 4.563em !important; 
   }
@@ -300,9 +325,19 @@ border-bottom:1px solid #30363a;
   .font-70{
     font-size:2.188rem !important;
   }
+  .w-logo-box{
+    width: auto;
+    height: 60px !important;
+  }
+  #creditCarbon .w-38{
+    width: 45%;
+  }
   
  }
  @media (min-width: 576px) { 
+  .font-60{
+    font-size: 1.875rem !important;
+  }
   .font-169 {
     font-size: 4.563em !important; 
   }
@@ -392,6 +427,13 @@ border-bottom:1px solid #30363a;
   min-width: 85px;
   text-align: end;
 }
+.w-logo-box{
+  width: auto;
+  height: 60px !important;
+}
+#creditCarbon .w-38{
+  width: 45%;
+}
  }
 
 
@@ -462,6 +504,10 @@ border-bottom:1px solid #30363a;
   min-width: 85px;
   text-align: end;
 }
+.font-60{
+  font-size: 1.875rem !important;
+}
+
   }
 
 
@@ -536,6 +582,16 @@ border-bottom:1px solid #30363a;
 }
 .font-70{
   font-size:3.75rem !important;
+}
+.font-60{
+  font-size: 2.5rem !important;
+}
+.w-logo-box{
+  width: auto;
+  height: 82px !important;
+}
+#creditCarbon .w-38{
+  width: 38%;
 }
 
  }
@@ -616,6 +672,9 @@ border-bottom:1px solid #30363a;
 .font-box{
   min-width: 125px;
   text-align: end;
+}
+.font-60{
+  font-size: 3.75rem !important;
 }
 }
 

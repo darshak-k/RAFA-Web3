@@ -4,6 +4,7 @@ import Home from './assets/componets/Home';
 import Whitepaper from './assets/componets/Whitepaper';
 import ExchangeCoin from './assets/componets/ExchangeCoin';
 import Greenravlution from './assets/componets/Greenravlution';
+import Creditcarbon from './assets/componets/Creditcarbon';
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
        <Whitepaper/>
        <ExchangeCoin/>
        <Greenravlution/>
+       <Creditcarbon/>
 
     </div>
   )
