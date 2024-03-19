@@ -10,15 +10,15 @@ const Creditcarbon = () => {
         <h1 className="font-55 text-them-black w-38 font-monst-bold">
           Credit Carbon in the press
         </h1>
-        <div className="my-5">
+        <div className="my-5 w-80">
           <div className="row my-md-5 my-4">
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <h2 className="font-34  font-monst-bold text-them-black">
                 Blomberg
               </h2>
             </div>
-            <div className="col-8">
-              <h2 className="font-16 font-monst-bold text-them-black ">
+            <div className="col-md-8 col-12">
+              <h2 className="font-16 font-monst-bold text-them-black my-2 ">
                 Carbon-Neutral Crypto Asset Fund
               </h2>
               <p className="line-h-30 font-16 text-second-muted  font-monst-reg">
@@ -31,13 +31,13 @@ const Creditcarbon = () => {
           </div>
 
           <div className="row my-md-5 my-4">
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <div className="">
                 <img className="img-fluid w-logo-box" src={blogOne}></img>
               </div>
             </div>
-            <div className="col-8">
-              <h2 className="font-16 font-monst-bold text-them-black ">
+            <div className="col-md-8 col-12">
+              <h2 className="font-16 font-monst-bold text-them-black my-2 ">
                 SkyBridge buys 38,500 tons of carbon offsets
               </h2>
               <p className="line-h-30 font-16 text-second-muted  font-monst-reg">
@@ -49,13 +49,13 @@ const Creditcarbon = () => {
             </div>
           </div>
           <div className="row my-md-5 my-4">
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <div className="">
                 <img className="img-fluid " src={blogTwo}></img>
               </div>
             </div>
-            <div className="col-8">
-              <h2 className="font-16 font-monst-bold text-them-black ">
+            <div className="col-md-8 col-12">
+              <h2 className="font-16 font-monst-bold text-them-black my-2 ">
                 Digital asset hedge fund One River files with SEC to create a
                 carbon-neutral bitcoin ETF
               </h2>
@@ -68,13 +68,13 @@ const Creditcarbon = () => {
             </div>
           </div>
           <div className="row my-md-5 my-4">
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <div className="">
                 <img className="img-fluid w-logo-box" src={blogThree}></img>
               </div>
             </div>
-            <div className="col-8">
-              <h2 className="font-16 font-monst-bold text-them-black ">
+            <div className="col-md-8 col-12">
+              <h2 className="font-16 font-monst-bold text-them-black my-2 ">
                 KlimaDAO increases carbon offset stash by 50% in two months
               </h2>
               <p className="line-h-30 font-16 text-second-muted  font-monst-reg">
