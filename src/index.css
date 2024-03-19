@@ -70,6 +70,7 @@
 }
 
 
+
 .btn-buy{
   padding: 2rem;
   background-color: #192025 !important;
@@ -142,6 +143,7 @@
 .bg-exchange{
 background-color: #E3E8BF;
 }
+/* ----------------------------------greenravlution------------- */
 
 /* ----------------------------------------------------- */
 .font-30{
@@ -164,6 +166,9 @@ background-color: #E3E8BF;
 }
 .font-13{
   font-size: 0.813rem !important;
+}
+.font-70{
+   font-size:4.375rem !important;
 }
 .font-14{
   font-size: 0.875rem !important;
@@ -199,13 +204,18 @@ border-bottom:1px solid #30363a;
   height: 60px;
   width: 100%;
 }
+.big-text{
+  font-size: calc(0.5rem + 8.5vw);
+}
+
 
 /* ----------------------------meadia query---------- */
 
 @media screen and (min-width: 1200px) {
   #home .container,
   #whitepaper .container,
-  #exchangeCoin .container
+  #exchangeCoin .container,
+  #greenravluation .container
   {
     max-width: 78%;
   }
@@ -274,6 +284,9 @@ border-bottom:1px solid #30363a;
   .line-h-50{
     line-height: 1.15rem !important;
   }
+  .line-h-30{
+    line-height: 1.87rem !important;
+  }
   .img-box-girl{
     height: 150px;
     width: auto;
@@ -283,6 +296,9 @@ border-bottom:1px solid #30363a;
   }
   .home-h{
     margin-top: 60px;
+  }
+  .font-70{
+    font-size:2.188rem !important;
   }
   
  }
@@ -366,6 +382,16 @@ border-bottom:1px solid #30363a;
 .home-h{
   margin-top: 60px;
 }
+.line-h-30{
+  line-height: 1.05rem !important;
+}
+.font-70{
+  font-size:2.188rem !important;
+}
+.font-box{
+  min-width: 85px;
+  text-align: end;
+}
  }
 
 
@@ -422,7 +448,20 @@ border-bottom:1px solid #30363a;
 .header-main{
   min-height: 65px;
 }
-
+.line-h-30{
+  line-height: 1.05rem !important;
+}
+.font-70{
+  font-size:3.125rem !important;
+}
+.font-box{
+  min-width: auto;
+  text-align: end;
+}
+.font-box{
+  min-width: 85px;
+  text-align: end;
+}
   }
 
 
@@ -492,6 +531,12 @@ border-bottom:1px solid #30363a;
 .home-h{
   margin-top: 85px;
 }
+.line-h-30{
+  line-height: 1.25rem !important;
+}
+.font-70{
+  font-size:3.75rem !important;
+}
 
  }
  
@@ -560,10 +605,18 @@ border-bottom:1px solid #30363a;
 }
 .img-crypto-exchange{
   height: 320px !important;
-  /* width: 100%; */
   object-fit: cover;
 }
-
+.line-h-30{
+  line-height: 1.87rem !important;
+}
+.font-70{
+  font-size:4.375rem !important;
+}
+.font-box{
+  min-width: 125px;
+  text-align: end;
+}
 }
 
 
