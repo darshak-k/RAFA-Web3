@@ -6,6 +6,7 @@ import ExchangeCoin from './assets/componets/ExchangeCoin';
 import Greenravlution from './assets/componets/Greenravlution';
 import Creditcarbon from './assets/componets/Creditcarbon';
 import NeftyActon from './assets/componets/NeftyActon';
+import Whomakerafa from './assets/componets/Whomakerafa';
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
        <Greenravlution/>
        <Creditcarbon/>
        <NeftyActon/>
+       <Whomakerafa/>
 
     </div>
   )

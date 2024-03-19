@@ -69,7 +69,9 @@
   border-right:  1px solid #0F0F0F !important;
 }
 
-
+.text-theam{
+  color: #192025;
+}
 
 .btn-buy{
   padding: 2rem;
@@ -149,12 +151,42 @@
   height: 350px;
   width: auto;
 }
+
 /* ------------------------------------herothree------------- */
 .bg-theam-second{
 background-color: #E3E8BF;
 }
-/* ----------------------------------greenravlution------------- */
-
+/* ----------------------------------whomake------------- */
+.contain-text{
+  position: relative;
+  z-index: 111;
+}
+.custtom-bullet{
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #0F0F0F;
+}
+.border-x-light{
+  border-bottom: 1px solid #192025;
+  width: 269px;
+}
+.icon-box-bullet{
+ height: 68px;
+ width: 68px;
+ font-size: 25px;
+ background-color: #0F0F0F;
+ border-radius: 50%;
+}
+.quote-img{
+  height:auto;
+  width: 100px;
+}
+.quote-top{
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+}
 /* ----------------------------------------------------- */
 .font-30{
   font-size:1.8rem !important;
@@ -340,9 +372,54 @@ border-bottom:1px solid #30363a;
   #creditCarbon .w-38{
     width: 45%;
   }
-  
+  .custtom-bullet{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0F0F0F;
+  }
+  .border-x-light{
+    border-bottom: 1px solid #192025;
+    width: 159px;
+  }
+  .icon-box-bullet{
+   height: 34px;
+   width: 34px;
+   font-size: 12.6px;
+   background-color: #0F0F0F;
+   border-radius: 50%;
+  }
+  #makerafa .font-24{
+    font-size: 1.2rem !important;
+  }
+  .quote-img{
+    height:auto;
+    width: 60px;
+  }
+  .quote-top{
+    
+    top: -4%;
+   
+  }
  }
  @media (min-width: 576px) { 
+  .custtom-bullet{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0F0F0F;
+  }
+  .border-x-light{
+    border-bottom: 1px solid #192025;
+    width: 159px;
+  }
+  .icon-box-bullet{
+   height: 34px;
+   width: 34px;
+   font-size: 12.6px;
+   background-color: #0F0F0F;
+   border-radius: 50%;
+  }
   .font-60{
     font-size: 1.875rem !important;
   }
@@ -442,6 +519,18 @@ border-bottom:1px solid #30363a;
 #creditCarbon .w-38{
   width: 45%;
 }
+#makerafa .font-24{
+  font-size: 1.2rem !important;
+}
+.quote-img{
+  height:auto;
+  width: 60px;
+}
+.quote-top{
+    
+  top: -4%;
+ 
+}
  }
 
 
@@ -484,7 +573,11 @@ border-bottom:1px solid #30363a;
   .font-34{
     font-size:1.925rem !important;
   }
-  
+  .quote-top{
+    
+    top: 10%;
+   
+  }
  #sub-ic-text .font-38{
    font-size: 1.5rem !important;
  }
@@ -514,6 +607,30 @@ border-bottom:1px solid #30363a;
 }
 .font-60{
   font-size: 1.875rem !important;
+}
+
+.border-x-light{
+  border-bottom: 1px solid #192025;
+  width: 189px;
+}
+.custtom-bullet{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #0F0F0F;
+}
+
+.icon-box-bullet{
+ height: 58px;
+ width: 58px;
+ font-size: 25px;
+ background-color: #0F0F0F;
+ border-radius: 50%;
+}
+
+.quote-img{
+  height:auto;
+  width: 80px;
 }
 
   }
@@ -601,6 +718,27 @@ border-bottom:1px solid #30363a;
 #creditCarbon .w-38{
   width: 45%;
 }
+.custtom-bullet{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #0F0F0F;
+}
+.border-x-light{
+  border-bottom: 1px solid #192025;
+  width: 159px;
+}
+.icon-box-bullet{
+ height: 58px;
+ width: 58px;
+ font-size: 25px;
+ background-color: #0F0F0F;
+ border-radius: 50%;
+}
+.quote-img{
+  height:auto;
+  width: 100px;
+}
 
  }
  
@@ -683,6 +821,23 @@ border-bottom:1px solid #30363a;
 }
 .font-60{
   font-size: 3.75rem !important;
+}
+.custtom-bullet{
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #0F0F0F;
+}
+.border-x-light{
+  border-bottom: 1px solid #192025;
+  width: 259px;
+}
+.icon-box-bullet{
+ height: 68px;
+ width: 68px;
+ font-size: 25px;
+ background-color: #0F0F0F;
+ border-radius: 50%;
 }
 }
 
