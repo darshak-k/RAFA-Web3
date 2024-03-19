@@ -10,7 +10,7 @@ const Home = () => {
   // <h1>{t('welcome')}</h1>
   // <p>{t('listItem1')}</p>
   return (
-    <section className="bg-theam home-h" id="home">
+    <section className="bg-theam home-h border-b-greay" id="home">
       <div className="hero-1 ">
         <div className="container pt-5">
           <h1 className="text-green font-monst-bold font-169">$RAFA</h1>
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <i className="text-center font-38">
+        <i className="text-center font-38 py-2">
           <FaChevronDown className="text-green" />
         </i>
       </div>
@@ -58,13 +58,11 @@ const Home = () => {
         <div className="d-flex justify-content-center">
           <div className="container-fluid">
             <div className="d-flex justify-content-end">
-            <div className="img-box-1">
-            <img src={hearoOne} className="img-fluid"/>
-          </div>
+              <div className="img-box-1">
+                <img src={hearoOne} className="img-fluid" />
+              </div>
             </div>
-          
           </div>
-         
         </div>
       </div>
     </section>
