@@ -13,7 +13,7 @@ const Home = () => {
         <div className="container pt-5">
           <h1 className="text-green font-monst-bold font-169">$RAFA</h1>
           <h3 className="w-80 font-55 text-green font-monst-bold">
-            The world’s most <br></br> liquid carbon credit token.
+            {t('homeOne')} <br></br> {t('homeOnesub')}
           </h3>
           <div className="d-flex w-90 justify-content-between">
             <div className="center-h">
@@ -47,7 +47,7 @@ const Home = () => {
           <div className="container">
             <div className="d-flex  pt-4  justify-content-end">
               <h1 className="font-55 text-green font-monst-bold">
-                NOT A MEME COIN
+                {t('homeTitle')}
               </h1>
             </div>
           </div>
