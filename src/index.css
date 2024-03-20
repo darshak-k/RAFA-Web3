@@ -73,12 +73,15 @@
   color: #192025;
 }
 
-.btn-buy{
+.btn-buy,.btn-send{
   padding: 2rem;
   background-color: #192025 !important;
   color: #DEF72D !important;
   border-radius: 0 !important;
   font-size: 19px;
+}
+.btn-send{
+ width: 40%;
 }
 .btn-buy-two{
   background-color: #DEF72D !important;
@@ -124,7 +127,7 @@
   width:25%;
 }
 .text-green{
-  color: #DEF72D;
+  color: #DEF72D !important;
 }
 
 .center-h{
@@ -267,7 +270,21 @@ border-bottom:1px solid #30363a;
 .icon-a{
   text-decoration: none !important;
 }
-
+.text-green-muted{
+  color: #909D36 !important;
+}
+#form-sub-hiring .form-control:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #A8AFB6 !important;
+  border: 1px solid #A8AFB6;
+}
+#form-sub-hiring .form-control{
+  border-radius:3px ;
+  outline: none !important;
+  
+  border: 1px solid #A8AFB6 ;
+}
 
 /* ----------------------------meadia query---------- */
 
@@ -397,9 +414,13 @@ border-bottom:1px solid #30363a;
     width: 60px;
   }
   .quote-top{
-    
     top: -4%;
-   
+  }
+ 
+  
+
+  #hearingForm .w-55{
+    width:100%;
   }
  }
  @media (min-width: 576px) { 
@@ -531,6 +552,9 @@ border-bottom:1px solid #30363a;
   top: -4%;
  
 }
+#hearingForm .w-55{
+  width:100%;
+}
  }
 
 
@@ -632,7 +656,9 @@ border-bottom:1px solid #30363a;
   height:auto;
   width: 80px;
 }
-
+#hearingForm .w-55{
+  width:100%;
+}
   }
 
 
@@ -739,6 +765,9 @@ border-bottom:1px solid #30363a;
   height:auto;
   width: 100px;
 }
+#hearingForm .w-55{
+  width:70%;
+}
 
  }
  
@@ -838,6 +867,9 @@ border-bottom:1px solid #30363a;
  font-size: 25px;
  background-color: #0F0F0F;
  border-radius: 50%;
+}
+#hearingForm .w-55{
+  width: 55%;
 }
 }
 

@@ -7,6 +7,7 @@ import Greenravlution from './assets/componets/Greenravlution';
 import Creditcarbon from './assets/componets/Creditcarbon';
 import NeftyActon from './assets/componets/NeftyActon';
 import Whomakerafa from './assets/componets/Whomakerafa';
+import Formhiring from './assets/componets/Formhiring';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
        <Creditcarbon/>
        <NeftyActon/>
        <Whomakerafa/>
+       <Formhiring/>
 
     </div>
   )
