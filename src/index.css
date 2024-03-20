@@ -302,7 +302,10 @@ border-bottom:1px solid #30363a;
 .footer-h{
   min-height: 280px;
 }
-
+.center-r{
+  display: flex;
+  justify-content: center;
+}
 
 /* ----------------------------meadia query---------- */
 
@@ -438,7 +441,9 @@ border-bottom:1px solid #30363a;
     top: -4%;
   }
  
-  
+  #whitepaper .w-80,#hearingForm .w-80{
+    width: 100%;
+  }
 
   #hearingForm .w-55{
     width:100%;

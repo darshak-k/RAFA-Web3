@@ -14,7 +14,7 @@ const Whitepaper = () => {
         <h6 className="text-green font-16 font-monst-bold">
           {t("heroSubTitle")}
         </h6>
-
+        
         <section className="w-80">
           <h1 className="text-green font-monst-bold my-md-5 my-3 font-40 ">
             {t("heroTwoOne")}
@@ -63,7 +63,8 @@ const Whitepaper = () => {
                 the planet
               </span>
             </div>
-            <div className="col-md-6  col-8 px-md-5  py-3 ">
+            <div className="col-md-6 d-flex justify-content-center justify-content-md-start col-12 px-md-5  py-3 ">
+              <div className="col-8 col-sm-12 sol-md-6 ">
               <div className="d-flex justify-content-between">
                 <div className="d-flex flex-column my-2">
                   <div className=" d-flex justify-content-center ">
@@ -110,6 +111,7 @@ const Whitepaper = () => {
                     Reforestation
                   </span>
                 </div>
+              </div>
               </div>
             </div>
             <div className="py-md-4 py-3">
