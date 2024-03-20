@@ -7,8 +7,6 @@ import { FaChevronDown } from "react-icons/fa";
 
 const Home = () => {
   const { t } = useTranslation();
-  // <h1>{t('welcome')}</h1>
-  // <p>{t('listItem1')}</p>
   return (
     <section className="bg-theam home-h border-b-greay" id="home">
       <div className="hero-1 ">

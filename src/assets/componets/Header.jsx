@@ -15,23 +15,11 @@ const Header = () => {
 
   return (
     <div>
-      {/*       
-       <h1
-        onMouseEnter={() => changeLanguage('hi')} 
-        onMouseLeave={() => changeLanguage(currentLanguage)}
-        onClick={() => changeLanguage('hi')}>
-        hi
-      </h1>
-      <h1
-        onMouseEnter={() => changeLanguage('en')} 
-        onMouseLeave={() => changeLanguage(currentLanguage)}
-        onClick={() => changeLanguage('en')}>
-        en
-      </h1> */}
+     
       <Navbar collapseOnSelect expand="md" className="header-main p-0 fixed-top">
         <Container>
           <Navbar.Brand href="#home" className="font-monst-bold font-50">
-            RAFA
+            {t('RAFA')}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -40,10 +28,10 @@ const Header = () => {
                 <div className="d-flex flex-column justify-content-center">
                   <div className="d-flex flex-column flex-md-row">
                     <a className="mx-1 main-menu font-monst-bold nav-link">
-                      About
+                      {t('listOne')}
                     </a>
                     <a className="mx-1 main-menu font-monst-bold nav-link">
-                      Contact
+                      {t('listTwo')}
                     </a>
                     <div className="d-flex flex-column justify-content-center">
                       <div className="d-flex">
@@ -57,9 +45,9 @@ const Header = () => {
                         </a>
                         <span>|</span>
                         <a className=" main-menu  ln mx-2 "
-                          onMouseEnter={() => changeLanguage("hi")}
+                          onMouseEnter={() => changeLanguage("es")}
                           onMouseLeave={() => changeLanguage(currentLanguage)}
-                          onClick={() => changeLanguage("hi")}>ES </a>
+                          onClick={() => changeLanguage("es")}>ES </a>
                         <span>|</span>
                         <a className=" main-menu  ln mx-1">FR </a>
                       </div>
@@ -70,7 +58,7 @@ const Header = () => {
 
               <div className="d-flex">
                 <button className="btn btn-buy font-monst-bold my-4 my-md-0 monst ms-md-5">
-                  Where To Buy
+                {t('HeaderBtn')} 
                 </button>
               </div>
             </Nav>
