@@ -4,16 +4,18 @@ const Greenravlution = () => {
   return (
     <section className="bg-theam" id="greenravluation">
       <div className="container py-5">
+        
         <div className="row">
-          <div className="col-md-6 col-12">
-            <div className="center-h h-100 text-start text-md-end ">
+          <div className="col-md-6  col-12">
+            <div className="center-h h-100 text-center text-md-end ">
               <h2 className="big-text text-green font-monst-bold px-md-4">
                 green revo lution
               </h2>
             </div>
           </div>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6  col-12">
             <div className="center-h h-100">
+              <div className="d-flex justify-content-center">
               <div className="w-60">
                 <h3 className="font-30 text-green font-monst-bold line-h-30">
                   "We believe the Earth is our collective home, Each soul
@@ -26,13 +28,15 @@ const Greenravlution = () => {
                   contribute to combating climate change.
                 </h4>
               </div>
+              </div>
+             
             </div>
           </div>
         </div>
-        <div className="d-flex py-4 justify-content-md-center">
+        <div className="d-flex py-4 justify-content-center">
           <div className="w-60 border-b-greay"></div>
         </div>
-        <div className="d-flex justify-content-md-center">
+        <div className="d-flex justify-content-center">
           <div className="w-60">
             <h2 className=" font-monst-bold font-30 text-white">Our impact</h2>
             <div className="d-flex">
