@@ -15,7 +15,7 @@ const Greenravlution = () => {
           </div>
           <div className="col-md-6  col-12">
             <div className="center-h h-100">
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center justify-content-md-start">
               <div className="w-60">
                 <h3 className="font-30 text-green font-monst-bold line-h-30">
                   "We believe the Earth is our collective home, Each soul
