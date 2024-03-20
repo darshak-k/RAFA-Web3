@@ -10,7 +10,7 @@ const Whomakerafa = () => {
         <h1 className="text-theam font-monst-bold font-55 my-5">
           Who makes $RAFA
         </h1>
-        <div className="row flex-column-reverse flex-lg-row flex">
+        <div className="row flex-column-reverse flex-lg-row  flex">
           <div className="col-lg-6 col-12">
             <div className="contain-text center-h h-100 py-md-5 py-4">
               <h3 className="font-24 font-monst-reg line-h-40">

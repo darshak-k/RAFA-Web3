@@ -8,6 +8,7 @@ import Creditcarbon from './assets/componets/Creditcarbon';
 import NeftyActon from './assets/componets/NeftyActon';
 import Whomakerafa from './assets/componets/Whomakerafa';
 import Formhiring from './assets/componets/Formhiring';
+import FooterRafa from './assets/componets/FooterRafa';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
        <NeftyActon/>
        <Whomakerafa/>
        <Formhiring/>
+       <FooterRafa/>
 
     </div>
   )

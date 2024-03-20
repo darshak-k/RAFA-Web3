@@ -4,13 +4,13 @@ const Formhiring = () => {
   return (
     <section id="hearingForm" className=" bg-theam-second">
       <div className="container py-5">
-        <div className="row">
+        <div className="row w-80">
           <div className="col-md-6 col-12">
             <div className="center-h h-100">
-              <h1 className="font-38 w-55 font-monst-bold text-theam my-2">
+              <h1 className="font-38 w-60 font-monst-bold text-theam my-2">
                 How can you help us?
               </h1>
-              <h1 className="font-60 w-55 font-monst-bold text-green-muted my-2">
+              <h1 className="font-60 w-60 font-monst-bold text-green-muted my-2">
                 WE ARE HIRING
               </h1>
             </div>

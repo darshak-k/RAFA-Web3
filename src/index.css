@@ -190,6 +190,20 @@ background-color: #E3E8BF;
   top: 10%;
   z-index: -1;
 }
+/* ------------------------footer------------- */
+.lan-footer{
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+ 
+}
+.b-r-1{
+  border-right:1px solid white ;
+}
+.lan-footer:hover{
+  color: #DEF72D;
+  font-weight: 800;
+}
 /* ----------------------------------------------------- */
 .font-30{
   font-size:1.8rem !important;
@@ -285,6 +299,10 @@ border-bottom:1px solid #30363a;
   
   border: 1px solid #A8AFB6 ;
 }
+.footer-h{
+  min-height: 280px;
+}
+
 
 /* ----------------------------meadia query---------- */
 
@@ -294,6 +312,9 @@ border-bottom:1px solid #30363a;
   #exchangeCoin .container,
   #greenravluation .container,
   #creditCarbon .container,
+  #footerOfrafa .container,
+  #hearingForm .container,
+  #makerafa .container,
   #niftyaction .containetr
   {
     max-width: 78%;
