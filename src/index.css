@@ -93,6 +93,7 @@
 .header-main{
   min-height: 85px;
 }
+
 .home-h{
   margin-top: 85px;
 }
@@ -306,6 +307,27 @@ border-bottom:1px solid #30363a;
   display: flex;
   justify-content: center;
 }
+/* scroll bar */
+::-webkit-scrollbar-track
+{
+
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #192025;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+ 
+	background-color: #DEF72D;
+}
+
+::-webkit-scrollbar-thumb
+{
+  height: 85px ;
+	background-color: #DEF72D;
+	/* border: 2px solid #555555; */
+}
 
 /* ----------------------------meadia query---------- */
 
@@ -400,6 +422,10 @@ border-bottom:1px solid #30363a;
   .header-main{
     min-height: 60px;
   }
+  ::-webkit-scrollbar-thumb{
+   height: 60px !important;
+  }
+
   .home-h{
     margin-top: 60px;
   }
@@ -546,6 +572,9 @@ border-bottom:1px solid #30363a;
 .header-main{
   min-height: 60px;
 }
+::-webkit-scrollbar-thumb{
+  height: 60px !important;
+}
 .home-h{
   margin-top: 60px;
 }
@@ -640,6 +669,9 @@ border-bottom:1px solid #30363a;
 }
 .header-main{
   min-height: 65px;
+}
+::-webkit-scrollbar-thumb{
+ height: 65px !important;
 }
 .line-h-30{
   line-height: 1.05rem !important;
@@ -896,6 +928,10 @@ border-bottom:1px solid #30363a;
 }
 #hearingForm .w-55{
   width: 55%;
+}
+::-webkit-scrollbar-thumb
+{
+  height: 85px !important ;
 }
 }
 
