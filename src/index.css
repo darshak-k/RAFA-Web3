@@ -191,6 +191,8 @@ background-color: #E3E8BF;
   top: 10%;
   z-index: -1;
 }
+/* ------------------------cryptto exchange------------- */
+
 /* ------------------------footer------------- */
 .lan-footer{
   color: white;
@@ -205,6 +207,7 @@ background-color: #E3E8BF;
   color: #DEF72D;
   font-weight: 800;
 }
+
 /* ----------------------------------------------------- */
 .font-30{
   font-size:1.8rem !important;
@@ -334,7 +337,6 @@ border-bottom:1px solid #30363a;
 @media screen and (min-width: 1200px) {
   #home .container,
   #whitepaper .container,
-  #exchangeCoin .container,
   #greenravluation .container,
   #creditCarbon .container,
   #footerOfrafa .container,
@@ -347,6 +349,9 @@ border-bottom:1px solid #30363a;
   
 }
 @media (max-width: 576px) { 
+  #exchangeCoin .w-80 ,  #exchangeCoin .w-65{
+    width: 100%;
+  }
   .font-60{
     font-size: 1.875rem !important;
   }
@@ -610,6 +615,9 @@ border-bottom:1px solid #30363a;
 #hearingForm .w-55{
   width:100%;
 }
+#exchangeCoin .w-80 ,  #exchangeCoin .w-65{
+  width: 100%;
+}
  }
 
 
@@ -717,10 +725,16 @@ border-bottom:1px solid #30363a;
 #hearingForm .w-55{
   width:100%;
 }
+#exchangeCoin .w-80 ,  #exchangeCoin .w-65{
+  width: 100%;
+}
   }
 
 
 @media (min-width: 992px) {
+  #exchangeCoin .w-80 ,  #exchangeCoin .w-65{
+    width: 100%;
+  }
   .font-169 {
     font-size: 6.563em !important; 
   }
@@ -826,6 +840,9 @@ border-bottom:1px solid #30363a;
 #hearingForm .w-55{
   width:70%;
 }
+.img-box-crypto{
+  height: 230px ;
+}
 
  }
  
@@ -892,10 +909,11 @@ border-bottom:1px solid #30363a;
 .home-h{
   min-height: calc(100vh - 96px);
 }
-.img-crypto-exchange{
-  height: 320px !important;
+/* .img-crypto-exchange{
+  height: 200px !important;
   object-fit: cover;
-}
+  width: auto;
+} */
 .line-h-30{
   line-height: 1.87rem !important;
 }
@@ -933,6 +951,10 @@ border-bottom:1px solid #30363a;
 {
   height: 85px !important ;
 }
+#exchangeCoin .w-80   {
+  width: 80%;
+}
+
 }
 
 
