@@ -58,7 +58,7 @@ const Whitepaper = () => {
               className="col-md-6 col-12  py-3  border-b-greay "
               id="sub-ic-text"
             >
-              <span className="font-monst-reg line-h-50 font-38 text-green">
+              <span className="font-monst-reg line-h-50 font-34 text-green">
                 $RAFA wants to unite & make the world a better place by saving
                 the planet
               </span>
@@ -127,8 +127,8 @@ const Whitepaper = () => {
               double spending. The utmost credibility for the important
               conservation work.
             </h2>
-            <div id="sub-ic-text" className="w-75 py-5 mt-md-5">
-              <span className="font-monst-reg line-h-50 font-38 text-green">
+            <div id="sub-ic-text" className="w-75 py-4 mt-md-5">
+              <span className="font-monst-reg line-h-50 font-34 text-green">
                 The Corporation will open an office in Zug Switzerland to launch
                 the $RAFA token. We will be under supervision of the Swiss
                 market supervisory authority (FINMA). We elected to undertake
