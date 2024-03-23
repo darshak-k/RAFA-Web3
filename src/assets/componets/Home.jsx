@@ -17,7 +17,7 @@ const Home = () => {
           </h3>
           <div className="d-flex w-90 justify-content-between">
             <div className="center-h">
-              <h4 className="w-70 font-30 text-left-sum text-white font-monst-bold">
+              <h4 className="w-70 font-30 m-0 p-0  text-left-sum text-white font-monst-bold">
                 1 $RAFA token
               </h4>
             </div>
@@ -28,10 +28,13 @@ const Home = () => {
               <div className="img-icon center-h">
                 <img src={leafIcon} className="img-fluid" />
               </div>
-              <div className="center-h">
-                <h4 className="w-80 text-right-sum   font-30 text-white font-monst-bold">
+              <div className="center-h h-100">
+                
+                <h4 className="w-80 text-right-sum  m-0 p-0  font-30 text-white font-monst-bold">
                   1 forestry (Amazonia) carbon credit
                 </h4>
+          
+           
               </div>
             </div>
           </div>
