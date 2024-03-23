@@ -41,7 +41,7 @@ const ExchangeCoin = () => {
                   className="img-fluid"
                 />
               </div>
-              <h1 className="text-center font-monst-bold font-30">tokens locked for 2 yers: 300 million </h1>
+              <h1 className="text-center font-monst-bold font-30">tokens locked for 2 years: 300 million </h1>
             </div>
          
           </div>

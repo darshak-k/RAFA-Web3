@@ -43,7 +43,7 @@ const Creditcarbon = () => {
               <p className="line-h-30 font-16 text-second-muted  font-monst-reg">
                 SkyBridge Capital has purchased 38,436 tons of tokenized carbon
                 offsets. Global investment firm SkyBridge Capital has partnered
-                with carbon credit provider Moss to purchase tokens representing
+                with carbon credit provider to purchase tokens representing
                 38,436 tons of carbon offsets.
               </p>
             </div>
@@ -61,7 +61,7 @@ const Creditcarbon = () => {
               </h2>
               <p className="line-h-30 font-16 text-second-muted  font-monst-reg">
                 One River, the digital asset hedge fund backed by billionaire
-                investor Alan Howard, has officially filed to create bitcoin
+                investor Alan Howard has officially filed to create a bitcoin
                 exchange-traded fund that incorporates the purchase of carbon
                 credits in an effort to make the product carbon-neutral.
               </p>
