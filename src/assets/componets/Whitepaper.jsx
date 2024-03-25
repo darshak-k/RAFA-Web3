@@ -14,7 +14,7 @@ const Whitepaper = () => {
         <h6 className="text-green font-16 font-monst-bold">
           {t("heroSubTitle")}
         </h6>
-        
+
         <section className="w-80">
           <h1 className="text-green font-monst-bold my-md-5 my-3 font-40 ">
             {t("heroTwoOne")}
@@ -65,53 +65,53 @@ const Whitepaper = () => {
             </div>
             <div className="col-md-6 d-flex justify-content-center justify-content-md-start col-12 px-md-5  py-3 ">
               <div className="col-8 col-sm-12 sol-md-6 ">
-              <div className="d-flex justify-content-between">
-                <div className="d-flex flex-column my-2">
-                  <div className=" d-flex justify-content-center ">
-                    <div>
-                      <img className=" img-icon-x" src={iconOne}></img>
+                <div className="d-flex justify-content-between">
+                  <div className="d-flex flex-column my-2">
+                    <div className=" d-flex justify-content-center ">
+                      <div>
+                        <img className=" img-icon-x" src={iconOne}></img>
+                      </div>
                     </div>
+                    <span className="text-center font-monst-reg  text-green font-12">
+                      Ai Technology
+                    </span>
                   </div>
-                  <span className="text-center font-monst-reg  text-green font-12">
-                    Ai Technology
-                  </span>
-                </div>
-                <div className="d-flex flex-column my-2">
-                  <div className=" d-flex justify-content-center ">
-                    <div>
-                      {" "}
-                      <img className=" img-icon-x" src={iconTwo}></img>
+                  <div className="d-flex flex-column my-2">
+                    <div className=" d-flex justify-content-center ">
+                      <div>
+                        {" "}
+                        <img className=" img-icon-x" src={iconTwo}></img>
+                      </div>
                     </div>
+                    <span className="text-center font-monst-reg  text-green font-12">
+                      Education
+                    </span>
                   </div>
-                  <span className="text-center font-monst-reg  text-green font-12">
-                    Education
-                  </span>
                 </div>
-              </div>
-              <div className="d-flex justify-content-between">
-                <div className="d-flex flex-column my-2">
-                  <div className=" d-flex justify-content-center ">
-                    <div>
-                      {" "}
-                      <img className=" img-icon-x" src={iconThree}></img>
+                <div className="d-flex justify-content-between">
+                  <div className="d-flex flex-column my-2">
+                    <div className=" d-flex justify-content-center ">
+                      <div>
+                        {" "}
+                        <img className=" img-icon-x" src={iconThree}></img>
+                      </div>
                     </div>
+                    <span className="text-center font-monst-reg  text-green font-12">
+                      Fertilizers
+                    </span>
                   </div>
-                  <span className="text-center font-monst-reg  text-green font-12">
-                    Fertilizers
-                  </span>
-                </div>
-                <div className="d-flex flex-column my-2">
-                  <div className=" d-flex justify-content-center ">
-                    <div>
-                      {" "}
-                      <img className=" img-icon-x" src={iconFour}></img>
+                  <div className="d-flex flex-column my-2">
+                    <div className=" d-flex justify-content-center ">
+                      <div>
+                        {" "}
+                        <img className=" img-icon-x" src={iconFour}></img>
+                      </div>
                     </div>
+                    <span className="text-center font-monst-reg  text-green font-12">
+                      Reforestation
+                    </span>
                   </div>
-                  <span className="text-center font-monst-reg  text-green font-12">
-                    Reforestation
-                  </span>
                 </div>
-              </div>
               </div>
             </div>
             <div className="py-md-4 py-3">
@@ -147,9 +147,11 @@ const Whitepaper = () => {
                 </h2>
               </div>
               <div>
-                <button className="btn btn-buy-two font-14 font-monst-bold my-2">
-                  Buy Now
-                </button>
+                <a href="https://phantom.app/">
+                  <button className="btn btn-buy-two font-14 font-monst-bold my-2">
+                    Buy Now
+                  </button>
+                </a>
               </div>
             </div>
           </div>

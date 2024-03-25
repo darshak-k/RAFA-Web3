@@ -85,7 +85,6 @@ const FooterRafa = () => {
               </div>
               {/* foot ico */}
               <div className="d-flex flex-wrap">
-
                 <div>
                   <a
                     href="#"
@@ -96,15 +95,15 @@ const FooterRafa = () => {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://twitter.com/RickSolana23"
                     className="text-green icon-a  mx-3 font-34 m-0 p-0  my-2 font-monst-bold"
                   >
-                   <FaTwitter />
+                    <FaTwitter />
                   </a>
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://t.me/rafatoken"
                     className="text-green icon-a  mx-3 font-34 m-0 p-0  my-2 font-monst-bold"
                   >
                     <FaTelegram />
@@ -115,7 +114,7 @@ const FooterRafa = () => {
                     href="#"
                     className="text-green icon-a  mx-3 font-34 m-0 p-0  my-2 font-monst-bold"
                   >
-                   <FaLinkedin />
+                    <FaLinkedin />
                   </a>
                 </div>
                 <div>
@@ -125,7 +124,7 @@ const FooterRafa = () => {
                   >
                     <FaInstagram />
                   </a>
-                </div>  
+                </div>
                 <div>
                   <a
                     href="#"
@@ -133,7 +132,7 @@ const FooterRafa = () => {
                   >
                     <FaFacebookF />
                   </a>
-                </div>  
+                </div>
                 <div>
                   <a
                     href="#"
@@ -141,8 +140,7 @@ const FooterRafa = () => {
                   >
                     <FaYoutube />
                   </a>
-                </div>  
-               
+                </div>
               </div>
             </div>
           </div>
