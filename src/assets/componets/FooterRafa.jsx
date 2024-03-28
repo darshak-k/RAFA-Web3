@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRedditAlien } from "react-icons/fa";
+import { FaDiscord, FaRedditAlien } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -87,15 +87,15 @@ const FooterRafa = () => {
               <div className="d-flex flex-wrap">
                 <div>
                   <a
-                    href="#"
+                    href="https://discord.gg/74rTqnpG"
                     className="text-green icon-a  mx-3 font-34 m-0 p-0  my-2 font-monst-bold"
                   >
-                    <FaRedditAlien />
+                    <FaDiscord />
                   </a>
                 </div>
                 <div>
                   <a
-                    href="https://twitter.com/RickSolana23"
+                    href="https://twitter.com/Rafatoken23"
                     className="text-green icon-a  mx-3 font-34 m-0 p-0  my-2 font-monst-bold"
                   >
                     <FaTwitter />
