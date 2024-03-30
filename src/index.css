@@ -193,7 +193,7 @@ background-color: #E3E8BF;
 }
 /* ------------------------cryptto exchange------------- */
 
-/* ------------------------footer------------- */
+
 .lan-footer{
   color: white;
   transition: 0.2s;
@@ -206,6 +206,20 @@ background-color: #E3E8BF;
 .lan-footer:hover{
   color: #DEF72D;
   font-weight: 800;
+}
+/* --------------------------------about------------------------------- */
+#contect-home {
+  position: relative;
+}
+.img-about-box{
+  position:absolute;
+  right: 0;
+  top:5%;
+}
+.img-left-box{
+ height: calc(100vh - 150px);
+ width: 350px;
+ object-fit: cover;
 }
 
 /* ----------------------------------------------------- */
@@ -250,6 +264,9 @@ background-color: #E3E8BF;
 }
 .line-h-50{
   line-height: 3.125rem !important;
+}
+.font-169{
+  font-size: 169px;
 }
 
 .text-them-black{
@@ -300,11 +317,14 @@ border-bottom:1px solid #30363a;
 #form-sub-hiring .form-control{
   border-radius:3px ;
   outline: none !important;
-  
   border: 1px solid #A8AFB6 ;
 }
+
 .footer-h{
   min-height: 280px;
+}
+.text-white{
+  color: white;
 }
 .center-r{
   display: flex;
@@ -331,11 +351,15 @@ border-bottom:1px solid #30363a;
 	background-color: #DEF72D;
 	/* border: 2px solid #555555; */
 }
+.img-about-box{
+  display: none;
+}
 
 /* ----------------------------meadia query---------- */
 
 @media screen and (min-width: 1200px) {
   #home .container,
+  #contect-home .container,
   #whitepaper .container,
   #greenravluation .container,
   #creditCarbon .container,
@@ -730,8 +754,17 @@ border-bottom:1px solid #30363a;
 }
   }
 
-
+@media (min-width:1150px) {
+   .img-left-box{
+    height: calc(100vh - 220px);
+    width: 200px;
+    object-fit: cover;
+   }
+   
+}
 @media (min-width: 992px) {
+
+
   #exchangeCoin .w-80 ,  #exchangeCoin .w-65{
     width: 100%;
   }
@@ -741,6 +774,7 @@ border-bottom:1px solid #30363a;
   .font-55{
     font-size: 3.138rem !important;
   }
+ 
   
   .text-left-sum {
     width: 80% ;
@@ -848,6 +882,9 @@ border-bottom:1px solid #30363a;
  
 
  @media (min-width: 1200px) { 
+  .img-about-box{
+    display: block;
+  }
   .font-169 {
   font-size: 8.203em !important; 
 }
@@ -855,6 +892,11 @@ border-bottom:1px solid #30363a;
   font-size: 3.338rem !important;
 }
 
+.img-left-box{
+  height: calc(100vh - 150px);
+  width: 350px;
+  object-fit: cover;
+ }
 
 .font-30{
   font-size:1.8rem !important;
