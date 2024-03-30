@@ -15,11 +15,14 @@ const Header = () => {
 
   return (
     <div>
-     
-      <Navbar collapseOnSelect expand="md" className="header-main p-0 fixed-top">
+      <Navbar
+        collapseOnSelect
+        expand="md"
+        className="header-main p-0 fixed-top"
+      >
         <Container>
           <Navbar.Brand href="#home" className="font-monst-bold font-50">
-            {t('RAFA')}
+            {t("RAFA")}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -28,10 +31,10 @@ const Header = () => {
                 <div className="d-flex flex-column justify-content-center">
                   <div className="d-flex flex-column flex-md-row">
                     <a className="mx-1 main-menu font-monst-bold nav-link">
-                      {t('listOne')}
+                      {t("listOne")}
                     </a>
                     <a className="mx-1 main-menu font-monst-bold nav-link">
-                      {t('listTwo')}
+                      {t("listTwo")}
                     </a>
                     <div className="d-flex flex-column justify-content-center">
                       <div className="d-flex">
@@ -44,10 +47,14 @@ const Header = () => {
                           EN
                         </a>
                         <span>|</span>
-                        <a className=" main-menu  ln mx-2 "
+                        <a
+                          className=" main-menu  ln mx-2 "
                           onMouseEnter={() => changeLanguage("es")}
                           onMouseLeave={() => changeLanguage(currentLanguage)}
-                          onClick={() => changeLanguage("es")}>ES </a>
+                          onClick={() => changeLanguage("es")}
+                        >
+                          ES{" "}
+                        </a>
                         <span>|</span>
                         <a className=" main-menu  ln mx-1">FR </a>
                       </div>
@@ -55,11 +62,12 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-
               <div className="d-flex">
-                <button className="btn btn-buy font-monst-bold my-4 my-md-0 monst ms-md-5">
-                {t('HeaderBtn')} 
-                </button>
+                <a href="https://phantom.app/">
+                  <button className="btn btn-buy font-monst-bold my-4 my-md-0 monst ms-md-5">
+                    {t("HeaderBtn")}
+                  </button>
+                </a>
               </div>
             </Nav>
           </Navbar.Collapse>
