@@ -52,7 +52,7 @@ const Whitepaper = () => {
           <h2 className="text-green font-monst-reg line-h-40 my-md-4 my-3 font-20">
             {t("heroTwoFive")}
           </h2>
-
+      
           <div className="row py-4">
             <div
               className="col-md-6 col-12  py-3  border-b-greay "
@@ -138,29 +138,29 @@ const Whitepaper = () => {
             </div>
           </div>
         </section>
-        <div className="row">
-          <div className="col-md-6 col-12">
-            <div className=" d-flex flex-column h-100 justify-content-center">
-              <div>
-                <h2 className="text-green font-monst-bold font-38 w-60 ">
-                  Wanna Invest in our token?
-                </h2>
+          <div className="row">
+            <div className="col-md-6 col-12">
+              <div className=" d-flex flex-column h-100 justify-content-center">
+                <div>
+                  <h2 className="text-green font-monst-bold font-38 w-60 ">
+                    Wanna Invest in our token?
+                  </h2>
+                </div>
+                <div>
+                  <a href="https://phantom.app/">
+                    <button className="btn btn-buy-two font-14 font-monst-bold my-2">
+                      Buy Now
+                    </button>
+                  </a>
+                </div>
               </div>
-              <div>
-                <a href="https://phantom.app/">
-                  <button className="btn btn-buy-two font-14 font-monst-bold my-2">
-                    Buy Now
-                  </button>
-                </a>
+            </div>
+            <div className="col-md-6 col-12">
+              <div className="">
+                <img src={treeOnGirl} className="img-box-girl "></img>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-12">
-            <div className="">
-              <img src={treeOnGirl} className="img-box-girl "></img>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

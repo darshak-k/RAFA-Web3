@@ -1,17 +1,21 @@
-import React from 'react';
-import About from './assets/componets/About';
-import Contact from './assets/componets/Contact/Contact';
+import React from "react";
+import About from "./assets/componets/About";
+import Contact from "./assets/componets/Contact/Contact";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./assets/componets/Header";
 
 const App = () => {
-
- 
-
   return (
     <div>
-       {/* <About/> */}
-       <Contact/>
+      <BrowserRouter>
+      <Header />  
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -13,7 +13,7 @@ import FooterRafa from "./FooterRafa";
 const About = () => {
   return (
     <div>
-      <Header />
+     
       <Home />
       <Whitepaper />
       <ExchangeCoin />

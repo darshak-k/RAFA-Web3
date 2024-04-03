@@ -27,7 +27,6 @@ const Formhiring = () => {
                       type="text"
                       className="form-control input-hiring"
                       id="name"
-                      
                     />
                     
                   </div>
@@ -40,7 +39,6 @@ const Formhiring = () => {
                       type="email"
                       className="form-control input-hiring"
                       id="email"
-                    
                     />
                     
                   </div>

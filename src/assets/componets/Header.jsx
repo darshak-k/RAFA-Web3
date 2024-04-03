@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -30,12 +31,12 @@ const Header = () => {
               <div className="d-flex">
                 <div className="d-flex flex-column justify-content-center">
                   <div className="d-flex flex-column flex-md-row">
-                    <a className="mx-1 main-menu font-monst-bold nav-link">
+                    <Link to="/" className="mx-1 main-menu font-monst-bold nav-link">
                       {t("listOne")}
-                    </a>
-                    <a className="mx-1 main-menu font-monst-bold nav-link">
+                    </Link>
+                    <Link to="/contact" className="mx-1 main-menu font-monst-bold nav-link">
                       {t("listTwo")}
-                    </a>
+                    </Link>
                     <div className="d-flex flex-column justify-content-center">
                       <div className="d-flex">
                         <a

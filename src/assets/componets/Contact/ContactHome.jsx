@@ -2,7 +2,7 @@ import React from "react";
 import { FaChevronDown } from "react-icons/fa";
 import abOne from '../../img/about/a-hero-1.jpeg'
 
-const ContactHome = () => {
+const  ContactHome = () => {
   return (
     <div>
       <section className="bg-theam home-h py-3" id="contect-home">
