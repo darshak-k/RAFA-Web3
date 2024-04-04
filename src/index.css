@@ -156,6 +156,11 @@
   width: auto;
 }
 
+.image-frm{
+  height: 300px;
+  width: auto;
+}
+
 /* ------------------------------------herothree------------- */
 .bg-theam-second{
 background-color: #E3E8BF;
@@ -367,6 +372,7 @@ border-bottom:1px solid #30363a;
   #footerOfrafa .container,
   #hearingForm .container,
   #makerafa .container,
+  #exchangeCoin .container,
   #niftyaction .containetr
   {
     max-width: 78%;

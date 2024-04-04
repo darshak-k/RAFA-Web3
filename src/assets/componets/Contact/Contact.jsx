@@ -4,7 +4,7 @@ import ContactHome from './ContactHome'
 import WhitepaperContact from './WhitepaperContact'
 import Formhiring from '../Formhiring'
 import FooterRafa from '../FooterRafa'
-import ExchangeCoin from '../ExchangeCoin'
+import ExchangeContact from './ExchangeContact'
 
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
 
       <ContactHome/>
       <WhitepaperContact />
-      <ExchangeCoin/>
+      <ExchangeContact/>
       <Formhiring />
       <FooterRafa />
      
